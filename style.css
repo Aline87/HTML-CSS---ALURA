@@ -1,0 +1,56 @@
+body {
+    background-color: fuchsia;
+    font-style: Segoe Script;
+    color:blue;
+     
+}
+#salao {
+    width: 100%;
+}
+  
+.principal {
+    background-color: fuchsia;
+    padding:30px; 
+}
+.titulo-principal{
+    padding-left:20px;
+    
+}
+   
+
+.titulo-centralizado {
+    text-align:center;
+}
+
+p { 
+    text-align:center
+    }
+#missao{
+    font-size:30px;
+}    
+
+em strong { 
+     color :rgb(26, 243, 207) ;
+}
+.itens  {
+    font-style:italic;
+}
+.beneficios{
+    background: #ffff;
+    padding:20px;
+} 
+
+
+}
+ul{
+    display: inline-block;
+    vertical-align:top;
+    width:5%;
+    margin-right:10%;
+}
+.imagemmake{
+    widows:30%;
+    
+}
+
+
