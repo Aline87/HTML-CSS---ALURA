@@ -1,3 +1,7 @@
+body{
+  font-family:Segoe Script;
+}
+
 header{
     background: deeppink;
     padding: 0 0 ;
@@ -6,7 +10,6 @@ header{
    position: relative;
    width:1500px;
    margin: 30px auto;
-
 }
 nav{
     position: absolute;
@@ -14,12 +17,7 @@ nav{
     right:0;
     margin:20;
     padding: 200px 390px;
-    font-weight: bold;
-
-   
-  
-    
-   }
+}
 
 nav li{
     display:inline;
@@ -105,22 +103,25 @@ footer {
 main{
   width: 940px;
   margin: 0 auto;
-  font-family:SegoeScript ;
   
-}form{
-  margin: 40 px 0 ;
-  font-family:SegoeScript ;
-  color:rgb(0, 255, 221)rgb(0, 255, 221) ;
-  font-weight: bold;
 }
+main p{
+  font-weight: bold;
+  font-family:Segoe Script ;
+  color:rgb(255, 0, 149) ;
+  
 
-form label, form legend {
+}
+from{
+  margin: 40 px 0 ;
+
+}
+form label, form p {
   display:block;
   margin: 20px;
   font-size : 0 0 10px;
-  font-family:SegoeScript ;
-  color:rgb(0, 255, 221)rgb(0, 255, 221) ;
-  font-weight: bold;
+  font-family:Segoe Script;
+  color:rgb(0, 255, 221) ;
 
 
 }
@@ -129,53 +130,66 @@ form label, form legend {
   margin:20px;
   padding:10px 25px ;
   widows: 50%;
-  font-family:SegoeScript ;
-  color:rgb(0, 255, 221)rgb(0, 255, 221) ;
-  font-weight: bold;
-
 
 }
 .checkbox{
   margin:20px 0 ; 
 
 }
-.enviar {
-  width: 40%;
-  padding: 15px 0;
-  background:deeppink;
-  color:rgb(0, 255, 221);
+/*css da pagina inicial*/
+.salao {
+  width: 100%;
+}
+.titulo-principal{
+  text-align: center;
+  font-size: 2em;
+  margin:0 0 1em;
+  font-family:Segoe Script;
+  color:rgb(0, 255, 221) ;
   font-weight: bold;
-  font-size:18px;
-  border-radius: 5px;
-  border-color: rgba(126, 1, 243, 0.897);
+  clear: left;
+}
+.principal p{
+  margin:0 0 1em;
   font-family:Segoe Script;
-  transition:1s background;
-  cursor: pointer;
+  color:deeppink ;
+  
 }
-.enviar :hover{
- background:rgba(126, 1, 243, 0.897);
- transform :scale (2.2);
-
-}
-table{
-  margin: 20px 0 40px;
-
-
-}
-thead{
-  background:deeppink ;
-  color:rgb(0, 255, 221);
+.principal strong{
   font-weight: bold;
-  font-family:Segoe Script;
+  font-family:Segoe Script ;
+  color:rgb(0, 255, 221) ;
+  font-style: italic;
 }
-td , th {
-  border:5x solid 12px rgba(126, 1, 243, 0.897);
-  padding:8px 15px;
-  font-family:Segoe Script;
-  color:rgb(0, 255, 221);
-  background:deeppink;
+.principal em {
+  font-style: italic;
+  font-weight: bold;
+  font-family:Segoe Script ;
+  color:rgb(0, 255, 221) ;
+  
 }
 
+.maquiagem{
+ 
+  width: 250px;
+  float: left;
+  margin:0 20px ;
+}
+.imagemmake{
+  width: 60%;
 
+}
+.missao{
+  font-style: italic;
+  font-weight: bold;
+  font-family:Segoe Script ;
+  color:deeppink ;
+}
+.missao strong {
+  font-style: italic;
+  font-weight: bold;
+  font-family:Segoe Script ;
+  color:rgb(0, 255, 221)
 
+}
 
